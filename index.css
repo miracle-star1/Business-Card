@@ -33,7 +33,7 @@ body{
 .info{
     margin-top: 40px;
     padding: 20px;
-    margin-left: 50px;
+    padding-left: 50px;
 
 }
 
@@ -46,7 +46,7 @@ body{
 .info button{
     border: none;
     background: aqua;
-    width: 100px;
+    width: 200px;
     height: 40px;
     padding: 5px;
     color: navy;
@@ -54,26 +54,31 @@ body{
 
 }
 
-.contact{
-    display: block;
-    padding: 10px;
-    text-align: left;
+.contact {
+    display: flex;
+    flex-direction: column; /* Stack contact items vertically */
+    gap: 10px; /* Adds space between contact items */
+    padding-left: 50px;
 }
 
-.contact div{
-    display: inline-block;
-    
+.item {
+    display: flex;
+    align-items: center; /* Align icons and text vertically in the same row */
+    gap: 10px; /* Space between icon and text */
 }
-.contact div img{
-    margin-left: 50px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 3px solid navy;
+
+.icon img {
+    width: 20px;
+    height: 20px;
+    border: 2px solid navy;
     border-radius: 50%;
-    margin-top: 5px;
-
 }
+
+.text {
+    font-size: 16px;
+    color: #000;
+}
+
 .footer{
     margin-top: 100px;
     background-color: navy;
