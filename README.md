@@ -22,9 +22,11 @@ This project showcases a professional digital business card designed using **HTM
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github/miracle-star1/Business-Card.git
+   ` ``` ` 
  2. Navigate to the project folder:
 ```bash
    cd Business-Card
+` ``` ` 
 Open index.html in any modern web browser to view the business card.
 
 ---
